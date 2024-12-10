@@ -22,6 +22,15 @@ public class Main {
 //        }else{
 //
 //        }
-
+//        for (int i = 0; i < 10; i ++) {
+//            System.out.println(i);
+//        }
+        printResult(sum(1, 2));
     }
-}
+        public static int sum (int a, int b) {
+                return a+b;
+        }
+        public static void printResult(int c) {
+            System.out.println("result = " + c);
+        }
+    }
