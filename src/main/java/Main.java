@@ -25,7 +25,11 @@ public class Main {
 //        for (int i = 0; i < 10; i ++) {
 //            System.out.println(i);
 //        }
-        printResult(sum(1, 2));
+        //printResult(sum(1, 2));
+        Human human1 = new Human("Иван");
+        human1.setSurname("Иванов");
+
+        System.out.println("Имя: " + human1.getName() + "\nФамилия: " + human1.getSurname()) ;
     }
         public static int sum (int a, int b) {
                 return a+b;
